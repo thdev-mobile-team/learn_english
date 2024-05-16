@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: '>=3.2.6 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -32,10 +32,12 @@ dependencies:
     sdk: flutter
   http: ^0.13.3
   get: ^4.6.1
+  flip_card: ^0.6.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.2
+
 
 dev_dependencies:
   flutter_test:
@@ -46,7 +48,8 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^3.0.0
+  flutter_lints: ^2.0.0
+  dots_indicator: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,6 +61,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/icon_facebook.png
+    - assets/icon_google.png
+    - assets/intro_background.jpg
+    - assets/logo.png
+    - assets/intro_image1.jpg
+    - assets/intro_image2.jpg
+    - assets/intro_image3.jpg
+    - assets/intro_image4.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
